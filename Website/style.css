@@ -1,0 +1,66 @@
+
+body p{
+    margin: 8;
+}
+
+nav ul{
+    background-color: rgb(68, 149, 255);
+    list-style: none;
+    display: flex;   
+    justify-content: space-around;
+    padding-inline-start: 0;
+}
+
+iframe{
+    width: 100%;
+    height: 52%;
+}
+
+.game{
+    width: 100%;
+    height: auto;  
+    border-radius: 30px;
+}
+
+.headshot{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+}
+.intro{
+    display: flex;
+    margin: -8;
+}
+
+section{
+    padding-top: 50px;
+}
+
+section ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+section li{
+    padding-bottom: 30px;
+}
+
+body h1 {
+    margin-top: 2em;
+    padding-inline-start: 20px;
+}
+
+.intBut{
+    background-color: 31384e;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    position: absolute;
+    margin: 10px;
+}
+
+.recentP{
+    margin: 40px 0px 30px 0px;
+}
