@@ -1,0 +1,156 @@
+
+body p{
+    margin: 8;
+}
+
+nav ul{
+    margin: -8;
+    background-color: 31384e;
+    list-style: none;
+    display: flex;   
+    justify-content: space-around;
+    padding-inline-start: 0;
+    color: white;
+    padding: 10px 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+iframe{
+    width: 100%;
+    height: 52%;
+}
+
+.game{
+    width: 100%;
+    height: auto;  
+    border-radius: 30px;
+}
+
+.headshot{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+}
+.intro{
+    display: flex;
+    margin: -8;
+}
+
+.main{
+    background-color: 31384e;
+    margin: -8px;
+    color: white;
+    padding: 0px 20px;
+}
+
+.main ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.main li{
+    padding-bottom: 30px;
+}
+
+.intro h1 {
+    margin-top: 2em;
+    padding-inline-start: 20px;
+}
+
+.intBut{
+    background-color: 31384e;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    position: absolute;
+    margin: 10px;
+}
+
+.recentP{
+    margin: 40px 0px 30px 0px;
+    padding-top: 30px;
+}
+
+.title{
+    text-align: center;
+}
+
+.about{
+    color: white;
+    background-color: 31384e;
+    margin: -8;
+    padding: 30px 20px 10px 20px;
+}
+
+.about ul{
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+.about h2, .about h3, .about h4{
+    margin: 0;
+}
+
+.about h2{
+    padding-top: 15px;
+    font-size: 1.28em;
+}
+
+.about ul h4{
+
+    margin-bottom: 20px;
+}
+
+.about2{
+    margin: -8px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.about2 ul{
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+.about2 h2, .about2 h3, .about2 h4{
+    margin: 0;
+}
+
+.about2 h2{
+    font-size: 1.28em;
+}
+
+.aboutHeader h1{
+    margin-top: 0;
+}
+
+.aboutHeader h2{
+    margin-bottom: 0;
+}
+
+.aboutHeader{
+    margin: 50px 0px;
+}
+
+.home{
+    margin-bottom: 100px;
+}
+
+.eduSpacing{
+    padding-top: 20px;
+}
+
+.aboutTitle {
+    font-size: 1.6em;
+    margin: 0px;
+}
+
+.desc{
+    padding-bottom: 70px;
+}
