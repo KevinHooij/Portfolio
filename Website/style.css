@@ -1,6 +1,6 @@
 /* GENERAL */
 body p{
-    margin: 8;
+    margin: 8px;
 }
 
 nav ul{
@@ -25,25 +25,26 @@ nav a{
     margin-bottom: 100px;
 }
 
+.home img{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+}
+
 .home p{
-    padding-top: 20px;
+    margin: 20px;
 }
 
 .intro{
     display: flex;
+    flex-wrap: wrap;
     margin: -8;
 }
 
 .intro h1 {
     margin-top: 2em;
     padding-inline-start: 20px;
-}
-
-.headshot{
-    width: 50%;
-    height: auto;
-    display: flex;
-    margin-left: auto;
 }
 
 .intBut{
@@ -101,7 +102,7 @@ iframe{
 
 /* ABOUT PAGE */
 .aboutHeader{
-    margin: 50px 0px;
+    margin: 50px 8px;
 }
 
 .aboutHeader h1{
@@ -170,18 +171,48 @@ iframe{
 /* DESKTOP STYLING */
 @media (min-width: 700px ) {
     
-
-    
-    .intro h1{
-        font-size: 5em;
-       
-    }
-
-    .headshot{
-        width: 33%;
-    }
-
     .home{
         padding-left: 40px;
     }
+
+    .home img{
+        width: 35%;
+    }
+
+    .home p{
+        margin: 20px 20px -20px 20px;
+    }
+
+    .intro h1{
+        font-size: 4.5em;
+        margin-top: 10%;
+    }
+
+    .intro p{
+        margin-top: -11%;
+        font-size: 1.5em;
+        flex-basis: 60%;
+    }
+
+    .home .intBut{
+        margin: -40px 10px;
+    }
+
+    .main ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main ul li{
+        flex-basis: 49%;
+    }
+
+    .main ul li:first-of-type{
+        margin: 0px 20px 0px 0px;
+    }
+
+    .main ul li:nth-of-type(3){
+        margin: 0px 20px 0px 0px;
+    }
+    
 }
